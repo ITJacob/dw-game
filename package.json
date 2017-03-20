@@ -1,0 +1,30 @@
+{
+  "name": "dw-game",
+  "version": "1.0.0",
+  "description": "3d web game based on three.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --inline --hot",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITJacob/dw-game.git"
+  },
+  "keywords": [
+    "js",
+    "3d",
+    "web",
+    "game"
+  ],
+  "author": "Wang Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITJacob/dw-game/issues"
+  },
+  "homepage": "https://github.com/ITJacob/dw-game#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
