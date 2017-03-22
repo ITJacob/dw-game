@@ -1,11 +1,8 @@
+import Game from 'dw-engine';
 
-class DongW {
-    constructor() {
-        this.publisher = "wang dong";
-    }
+var game = new Game;
+var container = document.createElement( 'div' );
 
-    show() {
-        alert("The publisher is " + this.publisher);
-        console.log("Welcome to my game.");
-    }
-}
+
+container.addEventListener('click', () => game.show(), false);
+document.body.appendChild( container );
