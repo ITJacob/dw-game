@@ -20,6 +20,7 @@ module.exports = {
           presets: [['es2015', {modules: false}]],
           plugins: [
             'syntax-dynamic-import',
+            'transform-export-extensions',
             'transform-async-to-generator',
             'transform-regenerator',
             'transform-runtime'
